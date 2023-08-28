@@ -30,31 +30,24 @@ function App() {
         </nav>
       </header>
       <section className="border-2 border-rose-500 flex flex-row">
-        <div className="flex flex-col items-center">
-          <img src={img3} alt="formas geometricas" className="p-1  max-w-3xl" />
-          <article className="flex flex-row items-center">
-            <h1 className="font-haken text-3xl p-2">The Bright Future of Web 3.0?</h1>
+        <div className="flex flex-col">
+          <img src={img3} alt="formas geometricas" className="p-1 border-2 border-red-400" />
+          <article className="flex flex-row items-center border-2 border-red-400">
+            <h1 className="border-2 border-red-400 font-haken font-extrabold text-8xl  text-blue-950 text-start">The Bright Future of Web 3.0?</h1>
 
-            <div>
-              <p className="font-inter p-2 text-justify">
+            <div className="text-justify border-2 border-red-400">
+              <p className="font-inter p-2 text-2xl">
                 We dive into the next evolution of the web that claims to put
                 the power of the platforms back into the hands of the people.
                 But is it really fulfilling its promise?
               </p>
               
-            <button className="bg-red-400 py-2 px-6 mb-1 text-white  font-inter">Read more</button>
+            <button className="bg-red-400 py-2 px-2 text-white  font-inter">Read more</button>
             </div>
           </article>
         </div>
-        <div className="">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
-            quia facilis? Autem consequuntur iusto praesentium quas rerum
-            dignissimos temporibus ipsa optio aperiam, iure sed exercitationem
-            similique asperiores, tempora, itaque nihil.
-          </p>
-        </div>
-        <div>
+        
+        <div className="flex flex-col bg-slate-500">
           <h2>New</h2>
           <article>
             <h3>Hydrogen VS Electric Cars </h3>
