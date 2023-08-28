@@ -29,40 +29,40 @@ function App() {
           </ul>
         </nav>
       </header>
-      <section className="border-2 border-rose-500 flex flex-row">
+      <section className="flex flex-row ">
         <div className="flex flex-col">
-          <img src={img3} alt="formas geometricas" className="p-1 border-2 border-red-400" />
-          <article className="flex flex-row items-center border-2 border-red-400">
-            <h1 className="border-2 border-red-400 font-haken font-extrabold text-8xl  text-blue-950 text-start">The Bright Future of Web 3.0?</h1>
+          <img src={img3} alt="formas geometricas" className="p-1" />
+          <article className=" grid grid-cols-2  border-2 border-red-400">
+            <h1 className=" font-haken font-extrabold text-8xl text-left text-blue-950 ">The Bright Future of Web 3.0?</h1>
 
-            <div className="text-justify border-2 border-red-400">
+            <div className="text-justify">
               <p className="font-inter p-2 text-2xl">
                 We dive into the next evolution of the web that claims to put
                 the power of the platforms back into the hands of the people.
                 But is it really fulfilling its promise?
               </p>
               
-            <button className="bg-red-400 py-2 px-2 text-white  font-inter">Read more</button>
+            <button className="bg-red-400 py-4 px-6 mt-6 text-white  font-inter">Read more</button>
             </div>
           </article>
         </div>
         
-        <div className="flex flex-col bg-slate-500">
-          <h2>New</h2>
-          <article>
-            <h3>Hydrogen VS Electric Cars </h3>
-            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <div className=" w-1/2 grid grid-cols-1 font-inter p-4 mt-1 bg-blue-950">
+          <h1 className="text-4xl text-yellow-400">New</h1>
+          <article className="mt-1">
+            <h3 className="text-white font-haken font-extrabold text-xl">Hydrogen VS Electric Cars </h3>
+            <p className="text-white font-inter text-xs py-2">Will hydrogen-fueled cars ever catch up to EVs?</p>
           </article>
-          <article>
-            <h3>The Downsides of AI Artistry</h3>
-            <p>
+          <article className="mt-1">
+            <h3 className="text-white font-haken font-extrabold text-xl">The Downsides of AI Artistry</h3>
+            <p className="text-white font-inter text-xs py-2">
               What are the possible adverse effects of on-demand AI image
               generation?
             </p>
           </article>
-          <article>
-            <h3>Is VC Funding Drying Up? </h3>
-            <p>
+          <article className="mt-1">
+            <h3 className="text-white font-haken font-extrabold text-xl">Is VC Funding Drying Up? </h3>
+            <p className="text-white font-inter text-xs py-2">
               Private funding by VC firms is down 50% YOY. We take a look at
               what that means.
             </p>
