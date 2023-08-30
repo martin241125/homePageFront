@@ -11,19 +11,19 @@ function App() {
         <nav className="flex flex-row">
           <img src={logo} alt="logo" className="mr-auto pt-3 pl-3 " />
           <ul className="flex flex-row justify-end pt-3 pr-3">
-            <li className="m-2 hover:cursor-pointer hover:text-orange-400">
+            <li className="m-2 hover:cursor-pointer hover:text-orange-400 hover:font-semibold">
               Home
             </li>
-            <li className="m-2 hover:cursor-pointer hover:text-orange-400">
+            <li className="m-2 hover:cursor-pointer hover:text-orange-400 hover:font-semibold">
               New
             </li>
-            <li className="m-2 hover:cursor-pointer hover:text-orange-400">
+            <li className="m-2 hover:cursor-pointer hover:text-orange-400 hover:font-semibold">
               Popular
             </li>
-            <li className="m-2 hover:cursor-pointer hover:text-orange-400">
+            <li className="m-2 hover:cursor-pointer hover:text-orange-400 hover:font-semibold">
               Trendig
             </li>
-            <li className="m-2 hover:cursor-pointer hover:text-orange-400">
+            <li className="m-2 hover:cursor-pointer hover:text-orange-400 hover:font-semibold">
               Categories
             </li>
           </ul>
@@ -31,37 +31,39 @@ function App() {
       </header>
       <section className="flex flex-row ">
         <div className="flex flex-col">
-          <img src={img3} alt="formas geometricas" className="p-1" />
-          <article className=" grid grid-cols-2  border-2 border-red-400">
-            <h1 className=" font-haken font-extrabold text-8xl text-left text-blue-950 ">The Bright Future of Web 3.0?</h1>
+          <img src={img3} alt="formas geometricas" className="p-1 mr-12" />
+          <article className="flex flex-row items-center   ">
+         <div>
+         <h1 className=" font-haken font-extrabold text-8xl text-left text-blue-950 ml-12 mt-2">The Bright Future of Web 3.0?</h1>
+         </div>
 
-            <div className="text-justify">
-              <p className="font-inter p-2 text-2xl">
+            <div className="ml-96">
+              <p className="font-inter p-2 text-2xl mr-8 ">
                 We dive into the next evolution of the web that claims to put
                 the power of the platforms back into the hands of the people.
                 But is it really fulfilling its promise?
               </p>
               
-            <button className="bg-red-400 py-4 px-6 mt-6 text-white  font-inter">Read more</button>
+            <button className="bg-red-400 py-2 px-2 mt-6 text-white  font-inter">Read more</button>
             </div>
           </article>
         </div>
         
-        <div className=" w-1/2 grid grid-cols-1 font-inter p-4 mt-1 bg-blue-950">
-          <h1 className="text-4xl text-yellow-400">New</h1>
+        <div className=" grid grid-cols-1 font-inter bg-blue-950 py-4 px-4 mt-1 mr-4">
+          <h2 className="text-4xl text-yellow-400  mt-2 ml-2">New</h2>
           <article className="mt-1">
-            <h3 className="text-white font-haken font-extrabold text-xl">Hydrogen VS Electric Cars </h3>
+            <h3 className="text-white font-haken font-extrabold text-xl hover:cursor-pointer hover:text-orange-400">Hydrogen VS Electric Cars </h3>
             <p className="text-white font-inter text-xs py-2">Will hydrogen-fueled cars ever catch up to EVs?</p>
           </article>
           <article className="mt-1">
-            <h3 className="text-white font-haken font-extrabold text-xl">The Downsides of AI Artistry</h3>
+            <h3 className="text-white font-haken font-extrabold text-xl hover:cursor-pointer hover:text-orange-400">The Downsides of AI Artistry</h3>
             <p className="text-white font-inter text-xs py-2">
               What are the possible adverse effects of on-demand AI image
               generation?
             </p>
           </article>
           <article className="mt-1">
-            <h3 className="text-white font-haken font-extrabold text-xl">Is VC Funding Drying Up? </h3>
+            <h3 className="text-white font-haken font-extrabold text-xl hover:cursor-pointer hover:text-orange-400">Is VC Funding Drying Up? </h3>
             <p className="text-white font-inter text-xs py-2">
               Private funding by VC firms is down 50% YOY. We take a look at
               what that means.
