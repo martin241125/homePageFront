@@ -71,29 +71,29 @@ function App() {
           </article>
         </div>
       </section>
-      <div>
-        <article>
-          <img src={img01} alt="" />
-          <div>
-            <span> 01</span>
-            <h3>Reviving Retro PCs</h3>
-            <p> What happens when old PCs are given modern upgrades?</p>
+      <div className="flex flex-row justify-between pt-12 mb-2">
+        <article className="flex flex-row ml-2 mr-2">
+          <img src={img01} alt="" className="rounded-lg"/>
+          <div >
+            <span className="text-gray-400 text-4xl pl-4 hover:text-yellow-600 hover:cursor-pointer font-inter font-bold"> 01</span>
+            <h3 className="text-blue-950 text-3xl font-extrabold font-haken pl-4 pt-4">Reviving Retro PCs</h3>
+            <p className="text-xl font-haken text-justify pt-12 pl-4"> What happens when old PCs are given modern upgrades?</p>
           </div>
         </article>
-        <article>
-          <img src={img02} alt="" />
-          <div>
-            <span> 02</span>
-            <h3>Top 10 Laptops of 2022</h3>
-            <p>Our best picks for various needs and budgets.</p>
+        <article className="flex flex-row ml-2 mr-2">
+          <img src={img02} alt="" className="rounded-lg"/>
+          <div >
+            <span className="text-gray-400 text-4xl pl-4 hover:text-yellow-600 hover:cursor-pointer font-inter font-bold"> 02</span>
+            <h3 className="text-blue-950 text-3xl font-extrabold font-haken pl-4 pt-4">Top 10 Laptops of 2022</h3>
+            <p className="text-xl font-haken text-justify pt-12 pl-4">Our best picks for various needs and budgets.</p>
           </div>
         </article>
-        <article>
-          <img src={img03} alt="" />
+        <article className="flex flex-row ml-2 mr-2">
+          <img src={img03} alt="" className="rounded-lg"/>
           <div>
-            <span>03 </span>
-            <h3>The Growth of Gaming</h3>
-            <p> How the pandemic has sparked fresh opportunities.</p>
+            <span className="text-gray-400 text-4xl pl-4 hover:text-yellow-600 hover:cursor-pointer font-inter font-bold">03 </span>
+            <h3 className="text-blue-950 text-3xl font-extrabold font-haken pl-4 pt-4">The Growth of Gaming</h3>
+            <p className="text-xl font-haken text-justify pt-12 pl-4"> How the pandemic has sparked fresh opportunities.</p>
           </div>
         </article>
       </div>
